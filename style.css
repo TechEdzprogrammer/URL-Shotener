@@ -3,15 +3,12 @@ nav {
     background-color: var(--bs-success);
     margin-bottom: 3%;
 }
-
 body{
     background-color: azure;
 }
-
 label{
     font-weight: 700;
 }
-
 .app > h1{
     text-align: center;
 }
@@ -32,18 +29,21 @@ label{
 .short{
     margin-bottom: 2%;
 }
-
 main{
-    height: 70vh;
+    height: 75vh;
 }
-
 input{
     border: solid 5px maroon;
 }
-
 footer{
     background-color: var(--bs-success);
 }
 footer div{
     color:azure;
+}
+
+@media screen and (max-width:600px) {
+    .app{
+        margin: 5% 10% 0 10%;
+    }
 }
